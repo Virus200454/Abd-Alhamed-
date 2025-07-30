@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abd Pizza"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Email"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"
+            android:background="@drawable/edittext_rounded"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"
+            android:background="@drawable/edittext_rounded"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/button_gradient"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/button_gradient_secondary" />
+    </LinearLayout>
+</ScrollView>
